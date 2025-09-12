@@ -9,8 +9,8 @@ const members = [
     name: "강지원",
     img: "./kjw.jpg",
     role: "개발",
-    awards: ".",
-    projects: ".",
+    awards: "교내 표창장 - 봉사상",
+    projects: "종합 코딩 실력 향상 플랫폼 등",
     instagram: "@j1_k.w0n",
     insta_link: "https://www.instagram.com/j1_k.w0n/",
     notion: "https://www.notion.so/NULL-26acbac7b93f8020a75bd180a7032cc9?source=copy_link"
@@ -19,7 +19,7 @@ const members = [
     name: "이지후",
     img: "./ljh.jpg",
     role: "개발",
-    awards: ".",
+    awards: "NYPC, 한국정보올림피아드 수상 등",
     projects: ".",
     instagram: "@slow090820",
     insta_link: "https://www.instagram.com/slow090820/",
@@ -29,8 +29,8 @@ const members = [
     name: "한재인",
     img: "./hji.jpg",
     role: "기획",
-    awards: ".",
-    projects: ".",
+    awards: "NYPC 특별상",
+    projects: "종합 코딩 실력 향상 플랫폼 등",
     instagram: "@hji_0715",
     insta_link: "https://www.instagram.com/hji_0715/",
     notion: "https://www.notion.so/26bf85c86a9e802da020eaa9eafd0b83?source=copy_link"
@@ -40,7 +40,7 @@ const members = [
     img: "./hjc.jpg",
     role: "디자인 및 총괄",
     awards: ".",
-    projects: ".",
+    projects: "Todo Calender 제작 프로젝트 등",
     instagram: "@chn_hcn",
     insta_link: "https://www.instagram.com/chn_hcn/",
     notion: "https://www.notion.so/Portfolio-26a999ff48a180e8835ee0780b20e8f3?source=copy_link"
@@ -106,7 +106,7 @@ function App() {
                     {/* .avatar 클래스로 이미지 크기/비율 제어 */}
                     <img src={member.img} alt={member.name} className="avatar mb-3 img-fluid" />
                     <h6>{member.name}</h6>
-                  </>
+                  </> 
                 )}
               </div>
             </div>
@@ -188,7 +188,7 @@ function App() {
                 </h2>
                 <div id="collapseTwo" className="accordion-collapse collapse" data-bs-parent="#faqAccordion">
                   <div className="accordion-body">
-                    스마트팜 AI 시스템, 청소년 웰다잉 플랫폼, EcoPop 등이 대표 프로젝트입니다.
+                    .
                   </div>
                 </div>
               </div>
