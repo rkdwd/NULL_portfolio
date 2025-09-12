@@ -118,33 +118,6 @@ function App() {
           <small className="guide-text">👉 카드를 눌러보거나 마우스를 올려보세요!</small>
         </div>
 
-        {/* 대표 프로젝트 섹션 (container-fluid 사용) */}
-        <section className="projects-section py-5">
-          <div className="container-fluid px-4">
-            <h3 className="text-center fw-bold mb-4">대표 프로젝트</h3>
-            <div className="row g-4">
-              <div className="col-md-6">
-                <div className="project-card p-4 shadow-sm h-100">
-                  <h5>스마트팜 AI 시스템</h5>
-                  <p>
-                    인공지능과 IoT를 결합해 농업의 효율성을 높이는 솔루션.
-                    드론·센서를 활용하여 작물의 생육 환경을 최적화합니다.
-                  </p>
-                </div>
-              </div>
-              <div className="col-md-6">
-                <div className="project-card p-4 shadow-sm h-100">
-                  <h5>청소년 웰다잉 플랫폼</h5>
-                  <p>
-                    청소년과 청년이 삶의 의미를 돌아보고 기록할 수 있는
-                    감성 저널링 기반의 웹/앱 서비스.
-                  </p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </section>
-
         {/* Skill Stack 섹션 */}
         <section className="skills-section py-5 bg-light">
           <div className="container-fluid text-center px-4">
