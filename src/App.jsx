@@ -142,11 +142,11 @@ function App() {
             <div className="accordion" id="faqAccordion">
               <div className="accordion-item">
                 <h2 className="accordion-header" id="faqOne">
-                  <button className="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne">
+                  <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne">
                     Q. NULL 팀 이름의 의미는 무엇인가요?
                   </button>
                 </h2>
-                <div id="collapseOne" className="accordion-collapse collapse show" data-bs-parent="#faqAccordion">
+                <div id="collapseOne" className="accordion-collapse collapse" data-bs-parent="#faqAccordion">
                   <div className="accordion-body">
                     NULL은 ‘무한한 가능성’을 의미합니다. 아무것도 없지만, 동시에 모든 것을 담을 수 있다는 뜻을 담고 있습니다.
                   </div>
