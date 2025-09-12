@@ -7,7 +7,7 @@ import "./App.css";
 const members = [
   {
     name: "강지원",
-    img: "kjw.jpg",
+    img: "/kjw.jpg",
     role: "개발",
     awards: ".",
     projects: ".",
@@ -17,7 +17,7 @@ const members = [
   },
   {
     name: "이지후",
-    img: "ljh.jpg",
+    img: "/ljh.jpg",
     role: "개발",
     awards: ".",
     projects: ".",
@@ -27,7 +27,7 @@ const members = [
   },
   {
     name: "한재인",
-    img: "hji.jpg",
+    img: "/hji.jpg",
     role: "기획",
     awards: ".",
     projects: ".",
@@ -37,7 +37,7 @@ const members = [
   },
   {
     name: "한재찬",
-    img: "hjc.jpg",
+    img: "/hjc.jpg",
     role: "디자인 및 총괄",
     awards: ".",
     projects: ".",
