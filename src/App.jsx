@@ -68,7 +68,7 @@ function App() {
             <h3 className="fw-bold mb-3">About Us</h3>
             <p className="text-muted">
               NULL 팀은 창의적인 아이디어와 기술력을 바탕으로 사회적 가치를 실현하는 것을 목표로 합니다.<br />
-              우리는 다양한 프로젝트와 협업을 통해 성장하고, 기술로 세상을 따뜻하게 만들고자 합니다.
+              우리는 다양한 프로젝트와 협업을 통해 성장하고, 기술로 세상을 따뜻하게 채워나가고자 합니다.
             </p>
           </div>
         </section>
@@ -124,12 +124,28 @@ function App() {
             <h3 className="fw-bold mb-4">Skill Stack</h3>
             <div className="d-flex justify-content-center gap-5">
               <div className="skill-item">
+                <img src="./C_Logo.svg" alt="C/C++" width="60" />
+                <p className="mt-2">C/C++</p>
+              </div>
+              <div className="skill-item">
                 <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" alt="Python" width="60" />
                 <p className="mt-2">Python</p>
               </div>
               <div className="skill-item">
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" alt="HTML" width="60" />
+                <p className="mt-2">HTML</p>
+              </div>
+              <div className="skill-item">
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" alt="CSS" width="60" />
+                <p className="mt-2">CSS</p>
+              </div>
+              <div className="skill-item">
                 <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" alt="React" width="60" />
                 <p className="mt-2">React</p>
+              </div>
+              <div className="skill-item">
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" alt="Github" width="60" />
+                <p className="mt-2">Github</p>
               </div>
             </div>
           </div>
@@ -148,7 +164,7 @@ function App() {
                 </h2>
                 <div id="collapseOne" className="accordion-collapse collapse" data-bs-parent="#faqAccordion">
                   <div className="accordion-body">
-                    NULL은 ‘무한한 가능성’을 의미합니다. 아무것도 없지만, 동시에 모든 것을 담을 수 있다는 뜻을 담고 있습니다.
+                    NULL은 아무것도 없음과 동시에 모든 것을 담을 수 있다는 뜻을 담고 있기에 ‘무한한 가능성’을 의미합니다.<br/>그리고 창의적인 아이디어와 기술력으로 세상을 체워나가면서 저희의 마음도 따뜻하게 채워나간다는 의미를 가지고 있습니다.
                   </div>
                 </div>
               </div>
@@ -156,7 +172,7 @@ function App() {
               <div className="accordion-item">
                 <h2 className="accordion-header" id="faqTwo">
                   <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo">
-                    Q. 주요 프로젝트는 어떤 게 있나요?
+                    Q. 디미톤에 참가하기 위해 어떤 노력을 했나요?
                   </button>
                 </h2>
                 <div id="collapseTwo" className="accordion-collapse collapse" data-bs-parent="#faqAccordion">
@@ -174,7 +190,7 @@ function App() {
                 </h2>
                 <div id="collapseThree" className="accordion-collapse collapse" data-bs-parent="#faqAccordion">
                   <div className="accordion-body">
-                    더 많은 사회적 문제 해결에 기여하고, 글로벌 무대에서도 인정받는 팀이 되는 것이 목표입니다.
+                    디미톤에서의 경험을 바탕으로 더 많은 해커톤 대회에 참가하여 창의적인 아이디어로 세상을 채워나가려고 합니다.
                   </div>
                 </div>
               </div>
@@ -184,7 +200,7 @@ function App() {
 
         {/* 팀 슬로건 */}
         <section className="text-center py-5 bg-light">
-          <h2 className="fw-bold">기술로 세상을 따뜻하게, NULL</h2>
+          <h2 className="fw-bold">기술로 세상을 채우다, NULL</h2>
           <p className="text-muted">사회적 가치와 혁신을 함께 추구하는 팀</p>
         </section>
       </main>
