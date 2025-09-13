@@ -20,7 +20,7 @@ const members = [
     img: "./ljh.jpg",
     role: "개발",
     awards: "NYPC, 한국정보올림피아드 수상 등",
-    projects: ".",
+    projects: "개인 금융 시각화 다이어리 등",
     instagram: "@slow090820",
     insta_link: "https://www.instagram.com/slow090820/",
     notion: "https://www.notion.so/STARTUPTHON-26aaa238d89a80d29d6dd8e97aad19cd"
@@ -40,7 +40,7 @@ const members = [
     img: "./hjc.jpg",
     role: "디자인 및 총괄",
     awards: ".",
-    projects: "Todo Calender 제작 프로젝트 등",
+    projects: "Todo Calender 제작 등",
     instagram: "@chn_hcn",
     insta_link: "https://www.instagram.com/chn_hcn/",
     notion: "https://www.notion.so/Portfolio-26a999ff48a180e8835ee0780b20e8f3?source=copy_link"
@@ -140,12 +140,12 @@ function App() {
                 <p className="mt-2">CSS</p>
               </div>
               <div className="skill-item">
-                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" alt="React" width="60" />
-                <p className="mt-2">React</p>
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" alt="JS" width="60" />
+                <p className="mt-2">JS</p>
               </div>
               <div className="skill-item">
-                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" alt="Github" width="60" />
-                <p className="mt-2">Github</p>
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" alt="React" width="60" />
+                <p className="mt-2">React</p>
               </div>
             </div>
           </div>
@@ -164,7 +164,8 @@ function App() {
                 </h2>
                 <div id="collapseOne" className="accordion-collapse collapse" data-bs-parent="#faqAccordion">
                   <div className="accordion-body">
-                    NULL은 아무것도 없음과 동시에 모든 것을 담을 수 있다는 뜻을 담고 있기에 ‘무한한 가능성’을 의미합니다.<br/>그리고 창의적인 아이디어와 기술력으로 세상을 체워나가면서 저희의 마음도 따뜻하게 채워나간다는 의미를 가지고 있습니다.
+                    NULL은 아무것도 없음과 동시에 모든 것을 담을 수 있다는 뜻을 담고 있어, '무한한 가능성'을 의미합니다. 
+                    저희는 무한한 기회와 도전, 배움, 그리고 성장의 가능성을 세상에 그려낼 것입니다.
                   </div>
                 </div>
               </div>
@@ -172,7 +173,7 @@ function App() {
               <div className="accordion-item">
                 <h2 className="accordion-header" id="faqTwo">
                   <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo">
-                    Q. 디미톤에 참가하기 위해 어떤 노력을 했나요?
+                    Q. 디미고 스타트업톤에 참가하기 위해 어떤 노력을 했나요?
                   </button>
                 </h2>
                 <div id="collapseTwo" className="accordion-collapse collapse" data-bs-parent="#faqAccordion">
@@ -190,7 +191,7 @@ function App() {
                 </h2>
                 <div id="collapseThree" className="accordion-collapse collapse" data-bs-parent="#faqAccordion">
                   <div className="accordion-body">
-                    디미톤에서의 경험을 바탕으로 더 많은 해커톤 대회에 참가하여 창의적인 아이디어로 세상을 채워나가려고 합니다.
+                    디미고 스타트업톤의 경험을 바탕으로, 더 많은 대회에 참가하여 창의적인 아이디어를 창출하고, 끊임없이 성장해 나가며 무한한 가능성을 세상에 담아내고자 합니다.
                   </div>
                 </div>
               </div>
