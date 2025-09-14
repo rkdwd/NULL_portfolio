@@ -39,7 +39,7 @@ const members = [
     name: "한재찬",
     img: "./hjc.jpg",
     role: "디자인 및 총괄",
-    awards: ".",
+    awards: "경기도 교육감 표창",
     projects: "Todo Calender 제작 등",
     instagram: "@chn_hcn",
     insta_link: "https://www.instagram.com/chn_hcn/",
