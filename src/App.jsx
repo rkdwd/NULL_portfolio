@@ -178,7 +178,8 @@ function App() {
                 </h2>
                 <div id="collapseTwo" className="accordion-collapse collapse" data-bs-parent="#faqAccordion">
                   <div className="accordion-body">
-                    .
+                    저희는 단순히 포트폴리오를 문자로 기술한 것이 아니라,포트폴리오 웹사이트를 제작함으로써 
+                    대회에서 필요한 언어와 툴과 같은 기술들을 사전에 상기하고 학습하여, 대회를 더욱 원활히 진행할 수 있도록 준비하였습니다.
                   </div>
                 </div>
               </div>
